@@ -4,7 +4,7 @@ Shifts [Audacity](https://www.audacityteam.org/) labels by a (possibly negative)
 ```
  Usage: shift_labels.py [OPTIONS] INPUT_FILENAME OFFSET
 
- Command-line interface that reads an input file, shifts the labels by the
+ Command-line interface that reads an Audacity label file, shifts the labels by the
  given offset, and prints the result to standard output.
 
 ╭─ Arguments ──────────────────────────────────────────────────────────────────╮
@@ -24,7 +24,7 @@ Example invocation (I want to shift labels by .3 seconds)
 ```console
 shift_labels.py labels.txt .3 > new_labels.txt
 ```
-Note: to protect a negative offset to be interpreted as an invalid option, you
+Note: To protect a negative offset being interpreted as an invalid option, you
 need to protect that argument by a preceding `--`:
 ```console
 shift_labels.py labels.txt -- -.3 > new_labels.txt
