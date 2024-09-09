@@ -1,7 +1,7 @@
 # shift_labels
 
 Shifts [Audacity](https://www.audacityteam.org/) labels by a (possibly negative) offset.
-```
+```console
  Usage: shift_labels.py [OPTIONS] INPUT_FILENAME OFFSET
 
  Command-line interface that reads an Audacity label file, shifts the labels by the
