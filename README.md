@@ -24,8 +24,8 @@ Example invocation (I want to shift labels by .3 seconds)
 ```console
 shift_labels.py labels.txt .3 > new_labels.txt
 ```
-Note: To protect a negative offset being interpreted as an invalid option, you
-need to protect that argument by a preceding `--`:
+Note: To protect a negative offset from being interpreted as an invalid option, you
+need to precede it by `--`, e.g.:
 ```console
 shift_labels.py labels.txt -- -.3 > new_labels.txt
 ```
