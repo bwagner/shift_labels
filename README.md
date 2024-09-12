@@ -29,3 +29,6 @@ need to precede it by `--`, e.g.:
 ```console
 shift_labels.py labels.txt -- -.3 > new_labels.txt
 ```
+
+## See also
+[rebuildap](https://github.com/bwagner/rebuildap), [beats2bars](ttps://github.com/bwagner/beats2bars), [pyaudacity](ttps://github.com/bwagner/pyaudacity)
