@@ -32,3 +32,6 @@ shift_labels.py labels.txt -- -.3 > new_labels.txt
 
 ## See also
 [rebuildap](https://github.com/bwagner/rebuildap), [beats2bars](https://github.com/bwagner/beats2bars), [pyaudacity](https://github.com/bwagner/pyaudacity)
+
+## To Do
+- quantize labels to a given beat track
